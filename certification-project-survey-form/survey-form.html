@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title="Computer Equipment Rental Form (🔥)"/>
+  </head>
+
+  <body>
+    <main id="main">
+
+      <h1 id="title">Computer Equipment Rental Form</h1>  
+      <p id="description">
+          Thank for trusting us. We hope you find the right equipment for your needs.
+        </p> 
+
+        <form id="survey-form">
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input id="name" name="name" type="text" class="form-control" placeholder="Enter your name" required>
+          </div>
+
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input id="email" name="email" type="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+
+          <div class="form-group">
+            <label id="number-label" for="number">Age
+              <span class="clue">(optional)</span>
+            </label>
+            <input id="number" name="age" type="number" min="10" max="99" class="form-control" placeholder="Age">
+          </div>
+
+          <div class="form-group">
+            <p> What type of equipment best describes your current need?</p>            
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disabled selected value>Select current role</option>
+              <option value="notebook">Notebook</option>
+              <option value="desktop">Computer Desktop</option>
+              <option value="tablet">Tablet</option>
+              <option value="ask-for">Ask For Advice</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+<div class="form-group">
+  <p>Do you have any favorite brand ?</p>
+
+  <label for="mac"><input class="inline" id="mac" name="brand" type="radio" value="mac" checked>Mac</label>
+
+  <label for="lenovo"><input class="inline" id="lenovo" name="brand"  type="radio" value="lenovo">Lenovo</label>
+
+  <label for="dell"><input class="inline" id="dell" name="brand"  type="radio" value="dell">Dell</label>
+
+  <label for="hp"><input class="inline" id="hp" name="brand"  type="radio" value="hp">HP</label>
+
+  <label for="not-sure"><input class="inline" id="not-sure" name="brand"  type="radio" value="not-sure">Not sure</label>
+</div>
+
+<div class="form-group">
+  <p>Which of the following devices do you think are suitable for your need?</p>
+  <label for="ipad-mini"><input class="inline" id="ipad-mini" type="checkbox" value=1>Ipad Mini</label>
+
+  <label for="ipad-air"><input class="inline" id="ipad-air" type="checkbox" value=2>Ipad Air</label>
+
+  <label for="ipad-pro"><input class="inline" id="ipad-pro" type="checkbox" value=3>Ipad Pro</label>
+
+  <label for="mac-air"><input class="inline" id="mac-air" type="checkbox" value=4>Macbook Air</label>
+
+  <label for="mac-pro"><input class="inline" id="mac-pro" type="checkbox" value=5>Macbook Pro</label>
+
+  <label for="len-think"><input class="inline" id="len-think" type="checkbox" value=6>Lenovo ThinkPad</label>
+
+  <label for="len-leg"><input class="inline" id="len-leg" type="checkbox" value=7>Lenovo Legion</label>
+  
+  <label for="len-leg-slim"><input class="inline" id="len-leg-slim" type="checkbox" value=8>Lenovo Legion Slim</label>
+
+  <label for="len-leg-pro"><input class="inline" id="len-leg-pro" type="checkbox" value=9>Lenovo Legion Pro</label>
+</div>
+
+<div class="form-group">
+  <label for="ask-area">Let us your ask for other devices.<textarea id="ask-area" name="ask-area" rows="3" cols="30" placeholder="Let us your ask here"></textarea></label>
+</div>
+
+           <div class="form-group">
+            <button type="submit" id="submit" class="submit-button"> Submit </button>            
+          </div>
+        </form>          
+      </main>
+      <footer></footer>
+  </body>
+</html>
