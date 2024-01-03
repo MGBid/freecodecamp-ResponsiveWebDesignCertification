@@ -1,0 +1,12 @@
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 8px;
+    padding: 2px 12px;
+    background-color: beige;
+    border-radius: 10%;
+}
+
+.stage-1 > h2 {
+    text-align: center;
+}
