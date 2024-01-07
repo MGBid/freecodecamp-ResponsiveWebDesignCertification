@@ -1,0 +1,26 @@
+body {
+    background: #EEE;
+  }
+  h1 {
+    text-align: center;
+  }
+  #image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 10 auto;
+  }
+  #image:hover {
+    max-width: 300%;
+  }
+  #img-div {
+    background-color: white;
+    text-align: center;
+    padding: 4px;
+    margin: 10;
+  }
+  #tribute-info {
+    margin: 4px 0px 0px 0px;
+    padding: 8px 18px;
+    background: #EEE;
+  }
